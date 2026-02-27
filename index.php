@@ -16,8 +16,7 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
                     <li><a href="#contact" class="btn-cta">Contact</a></li>
                 </ul>
             </nav>
@@ -26,30 +25,33 @@
 
     <section id="home" class="hero">
         <div class="container">
-            <h1>Innovative <span>Solutions</span> for the Web.</h1>
-            <p>Crafting high-performance websites with clean code and modern aesthetics.</p>
-            <a href="#services" class="btn-primary">Explore More</a>
+            <h1>Discover Your <span>Radiant</span> Beauty.</h1>
+            <p>Explore our collection of premium skincare and beauty products.</p>
+            <a href="#products" class="btn-primary">Shop Now</a>
         </div>
     </section>
 
-    <section id="services" class="services">
+    <section id="products" class="services">
         <div class="container">
-            <h2 class="section-title">What We Offer</h2>
+            <h2 class="section-title">Our Products</h2>
             <div class="grid">
                 <div class="card">
-                    <i class="fas fa-layer-group"></i>
-                    <h3>Full-Stack Dev</h3>
-                    <p>Robust PHP backends paired with interactive JavaScript interfaces.</p>
+                    <img src="https://placehold.co/300x300/1a1a1a/ffcc00" alt="Product 1" style="width:100%; border-radius: 15px; margin-bottom: 20px;">
+                    <h3>Radiant Glow Serum</h3>
+                    <p>A lightweight serum that boosts radiance and evens out skin tone.</p>
+                    <p style="font-size: 1.2rem; font-weight: 600; color: var(--accent); margin-top: 10px;">$45.00</p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Responsive Design</h3>
-                    <p>Your website will look perfect on every device, from mobile to desktop.</p>
+                    <img src="https://placehold.co/300x300/1a1a1a/ffcc00" alt="Product 2" style="width:100%; border-radius: 15px; margin-bottom: 20px;">
+                    <h3>Hydrating Cream</h3>
+                    <p>A rich and nourishing cream that provides long-lasting hydration.</p>
+                    <p style="font-size: 1.2rem; font-weight: 600; color: var(--accent); margin-top: 10px;">$55.00</p>
                 </div>
                 <div class="card">
-                    <i class="fas fa-search-dollar"></i>
-                    <h3>SEO Optimized</h3>
-                    <p>Built with best practices to ensure your site is found by the right people.</p>
+                    <img src="https://placehold.co/300x300/1a1a1a/ffcc00" alt="Product 3" style="width:100%; border-radius: 15px; margin-bottom: 20px;">
+                    <h3>Cleansing Foam</h3>
+                    <p>A gentle yet effective cleansing foam that removes impurities.</p>
+                    <p style="font-size: 1.2rem; font-weight: 600; color: var(--accent); margin-top: 10px;">$25.00</p>
                 </div>
             </div>
         </div>
@@ -59,8 +61,8 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-info">
-                    <h3>PRO<span>JECT</span></h3>
-                    <p>Defining the standard for modern web development.</p>
+                    <h3>COSMI<span>BEAUTII</span></h3>
+                    <p>Elevating beauty with nature's finest ingredients.</p>
                 </div>
                 <div class="footer-socials">
                     <a href="#"><i class="fab fa-facebook"></i></a>
@@ -69,7 +71,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <?php echo date("2026"); ?> Project. Developed with PHP & passion.</p>
+                <p>&copy; <?php echo date("2026"); ?> COSMI BEAUTII. All rights reserved.</p>
             </div>
         </div>
     </footer>
