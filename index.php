@@ -12,7 +12,7 @@
 
     <header class="navbar">
         <div class="container">
-            <div class="logo">COSMI<span>BEAUTII</span></div>
+            <div class="logo">COSMII<span>BEAUTII</span></div>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
